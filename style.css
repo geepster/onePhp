@@ -1,0 +1,63 @@
+
+.external_loginresp { position: relative; width:1440px; margin:0 auto; z-index:1000 }
+
+.cont_loginresp  { position:absolute; top:50px; left:828px; z-index:1}
+
+.box_external {
+    border: 1px solid #f1f1f1;
+    width: 315px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    background-color: #FFF;
+    margin: -10px 0 0 31px;
+    overflow: hidden;
+}
+
+/* gestione adv */
+
+#adleaderboard {
+    width: 728px;
+    margin: 0 auto;
+}
+
+#admpu {
+    width: 300px;
+    margin: 10px auto;
+}
+#admobleaderboard {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1440px)
+{
+    .external_loginresp { position: relative; width: 980px;}
+    .cont_loginresp { top:200px; left:798px; }
+}
+
+
+@media only screen and (max-width: 980px)
+{
+    /* .external_loginresp { width:730px; height:895px; position:relative;} */
+    .external_loginresp { position: relative; width:320px;}
+    .cont_loginresp { margin:0 auto!important; top:140px; left:0; float: none;}
+}
+
+
+@media only screen and (max-width: 730px)
+{
+    /* .external_loginresp { width: 570px; height: inherit; } */
+    .external_loginresp { position: relative; width: 320px; }
+    .cont_loginresp { margin: 0 auto; top: 50px; left:0; float: none;}
+}
+
+
+@media only screen and (max-width: 570px)
+{
+    .external_loginresp { position: relative; width:320px; height:500px; top:50px; }
+    .cont_loginresp { margin:0 auto!important; left:0; float: none;}
+    .box_external  { border:0; margin: -50px auto 0; padding: 0; }
+}
